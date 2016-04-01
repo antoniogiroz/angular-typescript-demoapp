@@ -1,0 +1,50 @@
+{
+  "name": "angular-typescript-demoapp",
+  "version": "1.0.0",
+  "description": "Demo app with angular 1.x with typescript and webpack + angular-material",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algil/angular-typescript-demoapp.git"
+  },
+  "keywords": [
+    "angular",
+    "typescript",
+    "webpack",
+    "angular-material"
+  ],
+  "author": "Antonio Gil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algil/angular-typescript-demoapp/issues"
+  },
+  "homepage": "https://github.com/algil/angular-typescript-demoapp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "browser-sync-webpack-plugin": "^1.0.1",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.10.0",
+    "node-sass": "^3.4.2",
+    "postcss-loader": "^0.8.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.0",
+    "ts-loader": "^0.8.1",
+    "typescript": "^1.8.7",
+    "typings": "^0.7.9",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-animate": "^1.5.3",
+    "angular-aria": "^1.5.3",
+    "angular-material": "^1.0.6",
+    "angular-messages": "^1.5.3"
+  }
+}
