@@ -9,7 +9,7 @@
     "clean": "rimraf dist",
     "build": "npm run clean && webpack --config webpack.config.js --progress --colors --NODE_ENV=dev",
     "start": "npm run build",
-    "serve": "webpack-dev-server"
+    "server": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
