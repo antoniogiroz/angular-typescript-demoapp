@@ -4,7 +4,12 @@
   "description": "Demo app with angular 1.x with typescript and webpack + angular-material",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup": "npm install && typings install",
+    "postinstall": "typings install",
+    "clean": "rimraf dist",
+    "build": "npm run clean && webpack --config webpack.config.js --progress --colors --NODE_ENV=dev",
+    "start": "npm run build",
+    "serve": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
