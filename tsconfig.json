@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "experimentalDecorators": true
+  },
+  "compileOnSave": false,
+  "filesGlob": [
+    "./src/**/*.ts",
+    "./typings/tsd.d.ts",
+    "!./node_modules/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "typings/main.d.ts",
+    "typings/main"
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
