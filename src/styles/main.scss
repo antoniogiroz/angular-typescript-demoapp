@@ -1,0 +1,10 @@
+
+@import "variables";
+
+[ng-cloak] {
+  display: none !important;
+}
+
+body {
+  background-color: $base-color;
+}
